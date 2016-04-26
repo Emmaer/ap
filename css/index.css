@@ -94,12 +94,6 @@ img {
   font-size: 0;
   width: 100%;
 }
-.main {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
 .main .banner {
   max-width: 100%;
 }
@@ -121,6 +115,7 @@ img {
   display: block;
 }
 .main .helps {
+  background-color: #fff!important;
   padding-bottom: 10px;
   overflow: hidden;
 }
@@ -246,33 +241,47 @@ img {
     background-position-x: left;
   }
   .main .helps {
+    background-color: #fff!important;
     min-height: 44px!important;
+    position: relative;
   }
   .main .helps .help1 {
+    background-color: #fff!important;
     text-align: center;
     height: 144px!important;
     max-width: 400px;
     border-bottom: 1px solid #ccc!important;
   }
   .main .helps .help1 .helpsL {
+    background-color: #fff!important;
+    position: absolute;
     min-height: 44px!important;
-    display: inline-block;
+    display: block;
     clear: both;
-    margin: 0 auto!important;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
   }
   .main .helps .help1 .helpsL img {
-    margin-left: 170px;
+    display: block;
+    margin: 0 auto!important;
   }
   .main .helps .help1 .helpsR {
+    background-color: #fff!important;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 50px auto;
     border: #fff;
     min-height: 44px!important;
     display: block;
+    text-align: center;
   }
   .main .helps .help1 .helpsR span {
     line-height: 26px;
-    text-align: center;
     border-left: #fff;
-    display: block;
+    display: inline-block;
+    margin-left: 20px;
   }
   .main .footerBox .footer .foot-top .fa .foota ul {
     display: none;

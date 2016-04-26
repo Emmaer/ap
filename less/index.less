@@ -89,10 +89,10 @@ img{
   }
   }
 .main {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  //position: absolute;
+  //top: 0;
+  //left: 0;
+  //z-index: 1;
   .banner {
     max-width: 100%;
     img {
@@ -118,6 +118,7 @@ img{
   }
 
   .helps {
+    background-color:#fff!important;
     padding-bottom:10px;
     overflow: hidden;
     .help1 {
@@ -270,9 +271,11 @@ img{
   }
 
   .helps{
-
+    background-color:#fff!important;
     min-height:44px!important;
+    position: relative;
    .help1{
+     background-color:#fff!important;
 
      text-align: center;
     height:144px!important;
@@ -282,23 +285,34 @@ img{
 
 
   .helpsL{
+    background-color:#fff!important;
+    position: absolute;
     min-height:44px!important;
-    display: inline-block;
+    display: block;
     clear:both;
-    margin:0 auto!important;
+    left:0px;
+    right:0px;
+    margin:0px auto;
     img{
-      margin-left:170px;
+      display:block;
+      margin:0 auto!important;
     }
   }
   .helpsR{
+    background-color:#fff!important;
+    position: absolute;
+    left:0px;
+    right:0px;
+    margin: 50px auto;
     border:#fff;
     min-height:44px!important;
     display: block;
+   text-align: center;
     span{
      line-height: 26px;
-      text-align: center;
       border-left:#fff;
-      display: block;
+      display: inline-block;
+      margin-left: 20px;
     }
     }
   }
